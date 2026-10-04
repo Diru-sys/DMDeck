@@ -9,14 +9,14 @@ audio ambiental, tracker de combate, dados y notas, todo en un solo lugar.
 TBA
 
 ## Funcionalidades
-- [X] Gestión de usuarios
-- [X] Campañas
-- [X] Mapas
-- [X] Soundboard y música
-- [X] Tiradas de dados animadas
-- [X] Tracker de combate
-- [X] Notas de campaña
-- [X] Enlaces de consulta
+- [ ] Gestión de usuarios
+- [ ] Campañas
+- [ ] Mapas
+- [ ] Soundboard y música
+- [ ] Tiradas de dados animadas
+- [ ] Tracker de combate
+- [ ] Notas de campaña
+- [ ] Enlaces de consulta
 
 ## Estructura del repositorio
 - `backend/`: API y lógica de negocio
