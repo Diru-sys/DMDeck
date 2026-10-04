@@ -1,0 +1,22 @@
+# Secretos y configuración local
+.env
+*.env
+!.env.example
+
+# Archivos subidos por usuarios
+uploads/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+
+# Logs y sistema
+*.log
+.vscode/
+.DS_Store
+Thumbs.db
