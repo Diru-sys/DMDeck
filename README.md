@@ -18,11 +18,5 @@ TBA
 - [ ] Notas de campaña
 - [ ] Enlaces de consulta
 
-## Estructura del repositorio
-- `backend/`: API y lógica de negocio
-- `database/`: esquema de la base de datos
-- `frontend/`: interfaz web
-- `docs/`: memoria, diagramas y capturas
-
 ## Autor
 Carlos Sánchez Damas
