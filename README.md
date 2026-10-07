@@ -1,45 +1,42 @@
 # DMDeck
 
-> Aplicación web modular concebida como pantalla de control centralizada (*DM Screen* interactiva) para directores de juego de *Dungeons & Dragons 5e*.
+> Pantalla de control web modular (*DM Screen* interactiva) concebida para la gestión y agilización de sesiones en directo de *Dungeons & Dragons 5e*.
 
-Proyecto Final de Grado (TFG) — Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (2º DAW).
-
+Proyecto Final de Grado (TFG) — Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (2º DAW, Curso 2026/2027).
 ---
 
-## Estado del proyecto
-En desarrollo activo — **Fase H1 (Idea, Investigación y Alcance inicial definida)**.
-
+## Estado del Proyecto
+En fase de desarrollo activo — **H1: Idea, Investigación y Alcance completados**.
 ---
 
 ## Problema y Propuesta de Valor
-* **Problema:** En sesiones de rol en directo, el máster sufre dispersión y sobrecarga cognitiva al alternar entre múltiples herramientas inconexas (manuales, hojas de cálculo, reproductores de audio externos y notas físicas), ralentizando el ritmo de los combates y rompiendo la inmersión.
-* **Propuesta:** DMDeck unifica en un único panel ligero la gestión de combates, la ambientación acústica y el soporte visual de mapas y dados, evitando la complejidad excesiva de plataformas VTT pesadas y eliminando los muros de pago de plataformas oficiales.
 
+* **El Problema:** Durante las sesiones de rol presenciales o híbridas, el director de juego (*Dungeon Master*) sufre sobrecarga cognitiva al alternar entre múltiples herramientas inconexas (manuales impresos, hojas de cálculo, reproductores externos de música y blocs de notas). Esta dispersión ralentiza los combates, interrumpe el ritmo narrativo y provoca errores frecuentes en el cálculo de estados y daño.
+* **Nuestra Propuesta:** DMDeck consolida en un único panel ligero la gestión operativa del combate, la ambientación sonora dual y el soporte visual de mapas y tiradas de dados. Elimina la complejidad y pesadez técnica de las plataformas de mesa virtual completas (VTT) y suprime las barreras de pago de herramientas oficiales.
 ---
 
-## Requisitos Funcionales (MVP)
+## Requisitos Funcionales
 
-* **RF-01 [MUST] Gestión de usuarios y sesiones:** Registro, autenticación y gestión de perfil del director de juego.
-* **RF-02 [MUST] Gestión de campañas y fichas:** Persistencia de campañas, perfiles de personajes jugadores y estadísticas de monstruos (PG, CA, modificadores).
-* **RF-03 [MUST] Rastreador de combate (*Combat Tracker*):** Cálculo y ordenación de iniciativa, conteo dinámico de vida/daño y asignación visual de estados alterados.
-* **RF-04 [MUST] Ambientación sonora dual:** Reproductor de música ambiental en bucle y botonera de efectos de sonido (*soundboard*) con soporte de audio local.
-* **RF-05 [MUST] Visor de mapas integrado:** Carga y visualización de planos/mapas de referencia rápida durante la sesión.
-* **RF-06 [MUST] Bandeja de dados virtuales:** Sistema de tiradas de dados 3D/animadas integrado en el propio panel.
-* **RF-07 [SHOULD] Bloc de notas rápidas:** Editor ligero de anotaciones contextuales por campaña o encuentro.
-* **RF-08 [COULD] Enlaces de consulta rápida:** Acceso directo a reglas y tablas del SRD 5.1.
+### Núcleo de la Aplicación
+* **RF-01 [MUST] Gestión de usuarios y acceso:** Autenticación de sesiones y gestión de cuenta del director de juego.
+* **RF-02 [MUST] Gestión de campañas y entidades:** Persistencia de campañas, personajes jugadores y perfiles de criaturas con estadísticas clave (PG, CA, modificadores).
+* **RF-03 [MUST] Rastreador de combate (*Combat Tracker*):** Ordenación automática de turnos por iniciativa, cálculo interactivo de daño/puntos de golpe y supervisión de estados alterados con ayuda visual.
+* **RF-04 [MUST] Sistema de ambientación sonora dual:** Reproducción simultánea de música ambiental en bucle y consola de efectos de sonido (*soundboard*) a partir de archivos locales.
+* **RF-05 [MUST] Visor centralizado de mapas:** Carga y navegación de mapas/planos de apoyo en el panel principal sin recarga de contexto.
+* **RF-06 [MUST] Bandeja de dados integrada:** Motor de tiradas virtuales animadas accesible desde la propia vista de combate.
 
-> *Límite de alcance inicial:* La versión 1.0 se centra exclusivamente en el panel de control del director. Se excluye la sincronización multiusuario en tiempo real para jugadores (tablero compartido por WebSockets y niebla de guerra).
-
+### Extensiones del Sistema
+* **RF-07 [SHOULD] Bloc de notas contextuales:** Editor ligero para anotaciones de sesión asociadas a cada encuentro o campaña.
+* **RF-08 [COULD] Compendio de consulta rápida:** Acceso directo a tablas de referencia y reglas básicas del documento de sistema abierto (SRD 5.1).
 ---
 
 ## Requisitos No Funcionales
 
-* **RNF-01 [Arquitectura]:** Aplicación web full-stack con diseño responsive y modular para escritorio/portátil.
-* **RNF-02 [Rendimiento]:** Interfaz optimizada para cambios de turno y cálculo de daño en tiempo real sin recarga de página.
-* **RNF-03 [Almacenamiento]:** Gestión eficiente y almacenamiento local de archivos multimedia (imágenes de mapas y pistas de audio).
-* **RNF-04 [Compatibilidad]:** Soporte para navegadores web modernos (Chromium, Firefox, Safari).
-
+* **RNF-01 [Arquitectura]:** Aplicación web full-stack modular con interfaz optimizada para pantallas de ordenador portátil y sobremesa.
+* **RNF-02 [Rendimiento e Interactividad]:** Actualización inmediata de estados de combate y manipulación de vida sin recargas de página (*Single Page Application* o renderizado dinámico por componentes).
+* **RNF-03 [Gestión de Recursos]:** Almacenamiento y procesamiento eficiente en cliente/servidor de archivos multimedia locales (pistas de audio e imágenes de alta resolución).
+* **RNF-04 [Compatibilidad]:** Ejecución estándar garantizada en motores basados en Chromium y Gecko (Google Chrome, Firefox, Microsoft Edge, Brave).
 ---
 
 ## 👤 Autor
-* **Carlos Sánchez Damas** — *2º DAW (Curso 2026/2027)*
+* **Carlos Sánchez Damas** — *Desarrollo de Aplicaciones Web (2º DAW)*
