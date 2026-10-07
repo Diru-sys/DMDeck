@@ -1,4 +1,4 @@
-# Proyecto DnD
+# Grimorio
 
 Aplicación web para Dungeon Masters: gestión de campañas, mapas,
 audio ambiental, tracker de combate, dados y notas, todo en un solo lugar.
