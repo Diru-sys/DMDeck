@@ -1,5 +1,5 @@
 # DMDeck
-> Pantalla de control web para Dungeon Masters: combate, ambientación sonora, mapas y dados en un solo panel durante la sesión de *Dungeons & Dragons 5e*.
+- Pantalla de control web para Dungeon Masters: combate, ambientación sonora, mapas y dados en un solo panel durante la sesión de *Dungeons & Dragons 5e*.
 TFG del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (2º DAW, curso 2026/2027).
 
 ---
@@ -27,7 +27,7 @@ DMDeck reúne todo en un panel ligero y gratuito, sin la complejidad de las mesa
 
 ## Tecnologías
 | Capa | Tecnología |
-|----------|---|
+|---|---|
 | Frontend | HTML, CSS, JavaScript, Bootstrap 5 |
 | Backend | Python, Django |
 | Base de datos | MySQL |
