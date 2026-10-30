@@ -16,11 +16,8 @@ DMDeck reúne todo en un panel ligero y gratuito, sin la complejidad de las mesa
 - [ ] Ambientación sonora: música de fondo y soundboard de efectos
 - [ ] Visor de mapas
 - [ ] Tiradas de dados animadas
-
-**Complementarias**
 - [ ] Notas de campaña
 - [ ] Enlaces de consulta (wikis y referencias)
-
 
 
 ## Tecnologías
@@ -31,7 +28,6 @@ DMDeck reúne todo en un panel ligero y gratuito, sin la complejidad de las mesa
 | Base de datos | MySQL |
 | Contenedores | Docker |
 | Control de versiones | Git y GitHub |
-
 
 
 ## Instalación
@@ -47,14 +43,11 @@ docker compose up --build
 Después abre http://localhost:8000 en el navegador. -->
 
 
-
 ## Estructura del repositorio
 - `backend/`: aplicación Django
 - `frontend/`: plantillas, estilos y scripts
 - `database/`: datos iniciales
 - `docs/`: memoria y diagramas
-
 ---
-
 ## Autor
 **Carlos Sánchez Damas**
