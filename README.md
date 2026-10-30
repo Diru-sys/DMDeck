@@ -2,13 +2,11 @@
 - Pantalla de control web para Dungeon Masters: combate, ambientación sonora, mapas y dados en un solo panel durante la sesión de *Dungeons & Dragons 5e*.
 TFG del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (2º DAW, curso 2026/2027).
 
----
 
 ## ¿Qué problema resuelve?
 Durante una sesión, el Dungeon Master alterna entre manuales, hojas de cálculo, reproductores de música y blocs de notas. Eso ralentiza los combates y provoca errores al llevar estados y daño.
 DMDeck reúne todo en un panel ligero y gratuito, sin la complejidad de las mesas virtuales completas (VTT).
 
----
 
 ## Funcionalidades
 **Esenciales**
@@ -23,7 +21,7 @@ DMDeck reúne todo en un panel ligero y gratuito, sin la complejidad de las mesa
 - [ ] Notas de campaña
 - [ ] Enlaces de consulta (wikis y referencias)
 
----
+
 
 ## Tecnologías
 | Capa | Tecnología |
@@ -34,7 +32,7 @@ DMDeck reúne todo en un panel ligero y gratuito, sin la complejidad de las mesa
 | Contenedores | Docker |
 | Control de versiones | Git y GitHub |
 
----
+
 
 ## Instalación
 > 🚧 Próximamente. Se completará cuando el entorno con Docker esté listo.
@@ -48,7 +46,7 @@ docker compose up --build
 
 Después abre http://localhost:8000 en el navegador. -->
 
----
+
 
 ## Estructura del repositorio
 - `backend/`: aplicación Django
